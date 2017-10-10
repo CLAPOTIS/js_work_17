@@ -1,0 +1,117 @@
+html,body{
+	padding:0;
+	margin:0;
+	font-family:"Times New Roman",Georgia,Arial;
+	font-size:15px;
+}
+.content{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	width:310px;
+	height:600px;
+}
+header{
+	position:relative;
+	width:310px;
+	height:40px;
+	background-color:#EE5C42;
+	color:#fff;
+}
+.title{
+	float:left;
+	position:relative;
+	width:auto;
+	height:40px;
+	line-height:40px;
+	margin-left:20px;
+	font-family:Arial;
+	font-weight:600;
+	font-size:20px;
+}
+.more{
+	float:right;
+	position:relative;
+	width:auto;
+	height:40px;
+	line-height:40px;
+	margin-right:20px;
+	font-family:sans-serif;
+	font-weight:bold;
+}
+.next,.prev{
+	position:absolute;
+	width:310px;
+	height:35px;
+	background-color:#FCFCFC;
+}
+.next{
+	position:absolute;
+	top:40px;
+	left:0;
+}
+.prev{	
+	position:absolute;
+	top:570px;
+	left:0;
+}
+.btn_next,.btn_prev{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	width:70px;
+	height:25px;
+	border-radius:15px;
+	border:none;
+}
+.btn_next{
+	background:url(../images/arrow_t.png) no-repeat center #FA8072;
+}
+.btn_prev{
+	background:url(../images/arrow_b.png) no-repeat center #FA8072;
+}
+.btn_next:hover,.btn_prev:hover{
+	background-color:#EE5C42;
+}
+.menu{
+	position:absolute;
+	top:75px;
+	left:0;
+	width:290px;
+	height:500px;
+	padding:0 10px;
+	overflow:hidden;
+}
+#move{
+	position:absolute;
+	top:0px;
+	left:10px;
+	width:290px;
+	height:1600px;	
+}
+.module{
+	position:relative;
+	width:270px;
+	height:160px;
+	border-bottom:1px solid #FA8072;
+	padding:0 10px;
+	font-size:13px;
+}
+.module_title{
+	position:relative;	
+	color:#9C9C9C;
+}
+.module_intro{
+	position:relative;
+	width:150px;
+	height:auto;
+	color:#B7B7B7;
+}
+.module_pic{
+	position:absolute;
+	top:50%;
+	right:10px;
+	transform:translateY(-50%);
+}
